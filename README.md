@@ -17,6 +17,4 @@ This is a simple Arch Linux installation script for setting up:
 3. Run:
 
 ```bash
-curl -O https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/arch-kde-install/main/arch_installer.sh
-chmod +x arch_installer.sh
-./arch_installer.sh
+curl -O https://raw.githubusercontent.com/Realbobcorbin/ARCH/main/arch_installer.sh
