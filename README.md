@@ -1,20 +1,24 @@
-# ARCH
-Arch Linux Script
-# Arch KDE Installer
+# 🚀 Arch + KDE Install Script
 
-This is a simple Arch Linux installation script for setting up:
+This script installs Arch Linux with the KDE Plasma desktop, using EXT4 and simple defaults.
 
-- Full KDE Plasma desktop
-- ext4 filesystem
-- GRUB bootloader
-- User: `arch`
-- Hostname: `arch`
+---
 
-## Usage
+## 📦 What It Does
 
-1. Boot into Arch live ISO.
-2. Connect to the internet (`wifi-menu` or `iwctl`).
-3. Run:
+- Wipes your disk (`/dev/sda`) ⚠️
+- Sets up EFI boot
+- Installs Arch Linux + KDE
+- Enables SDDM (graphical login)
+- Creates a user named `arch` with password `password`
+
+---
+
+## 🛠️ How to Use (From Arch Live ISO)
+
+Boot into the Arch ISO and run:
 
 ```bash
 curl -O https://raw.githubusercontent.com/Realbobcorbin/ARCH/main/arch_installer.sh
+chmod +x arch_installer.sh
+./arch_installer.sh
